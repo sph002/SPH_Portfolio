@@ -1,0 +1,62 @@
+
+
+-Member
+String memberId
+String memberPw
+String memberNmae
+String gender
+String birthDate
+String email
+String phone
+String address
+String entryDate
+
+
+
+
+
+-Seat
+seatNo//좌석번호
+memberId  //아이디
+condition //상태
+startTime //시작시간
+finishTime //종료시간
+monitor // 모니터
+mainframe //  본체
+
+-UseList    //(피시이용내역)
+memberId
+seatNo	    //좌석번호
+useTime     //이용시간
+cost 	 	//비용
+mileageAdd         //추가되는 마일리지
+payTime 	//결제가이루어지는 날짜 및시간
+
+-Order
+int orderNo 주문번호
+Sting memberId
+String orderTime
+
+-OrderList
+int   orderNO //주문번호
+String  productName //재고명
+int  productCount  //주문수
+
+
+-Product
+productName //재고명
+stock  //재고량
+priceBuy  //원가
+priceSell//판매가
+category // 분류
+
+chating
+int chatNo
+Sting admin
+String memberId
+String startTime
+String content
+
+
+
+
